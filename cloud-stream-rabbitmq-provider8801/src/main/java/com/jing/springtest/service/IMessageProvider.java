@@ -1,2 +1,5 @@
-package com.jing.springtest.service;public interface IMessageProvider {
+package com.jing.springtest.service;
+
+public interface IMessageProvider {
+    public String send();
 }
