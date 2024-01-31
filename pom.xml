@@ -34,6 +34,7 @@
         <module>cloud-config-client-3366</module>
         <module>cloud-stream-rabbitmq-provider8801</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
+        <module>cloud-stream-rabbitmq-consumer8803</module>
     </modules>
 
     <properties>
@@ -45,13 +46,13 @@
 
     <dependencyManagement>
         <dependencies>
-                <dependency>
+            <dependency>
                     <groupId>org.springframework.cloud</groupId>
                     <artifactId>spring-cloud-dependencies</artifactId>
                     <version>${spring-cloud.version}</version>
                     <type>pom</type>
                     <scope>import</scope>
-                </dependency>
+            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
