@@ -54,6 +54,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        <!--use below dependencies for Micrometer tracing-->
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-observation</artifactId>
@@ -70,6 +71,7 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-micrometer</artifactId>
         </dependency>
+        <!--use above dependencies for Micrometer tracing-->
         <dependency>
             <groupId>com.jing.springcloudtest</groupId>
             <artifactId>cloud-api-commons</artifactId>
